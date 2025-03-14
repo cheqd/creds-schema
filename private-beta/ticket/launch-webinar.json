@@ -1,0 +1,24 @@
+{
+	"@context": ["https://www.w3.org/2018/credentials/v1"],
+	"type": ["VerifiableCredential", "Ticket"],
+	"issuer": {
+		"id": "did:cheqd:mainnet:7c950b5d-dbbb-4a12-9d79-6b553ca0c271",
+		"name": "creds",
+		"url": "https://creds.xyz/",
+		"image": "https://resolver.cheqd.net/1.0/identifiers/did:cheqd:mainnet:7c950b5d-dbbb-4a12-9d79-6b553ca0c271?resourceName=creds-issuer-logo&resourceType=image"
+	},
+	"issuanceDate": "1970-01-01",
+	"credentialSubject": {
+		"id": "<placeholder-did-key-holder-did>",
+		"credentialInternalId": "<placeholder-credential-internal-id>",
+		"category": "ticket",
+		"ticket": {
+			"type": "Creds Launch Webinar",
+			"name": "Creds Launch Webinar",
+			"description": "This credential verifies the user holds a ticket for the listed event",
+			"image": "https://img.creds.xyz/Ticket%20-Launch_webinar.png",
+			"eventAttendanceMode": "OfflineEventAttendanceMode"
+		},
+		"linkedImage": "https://img.creds.xyz/Ticket%20-Launch_webinar.png"
+	}
+}

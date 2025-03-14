@@ -1,0 +1,36 @@
+{
+	"@context": ["https://www.w3.org/2018/credentials/v1"],
+	"type": ["VerifiableCredential", "Event"],
+	"issuer": {
+		"id": "did:cheqd:mainnet:56245db1-6a6f-481f-8e18-b0dd0fc59522",
+		"name": "cosmosnyc",
+		"url": "https://www.meetup.com/cosmos/",
+		"image": "https://resolver.cheqd.net/1.0/identifiers/did:cheqd:mainnet:56245db1-6a6f-481f-8e18-b0dd0fc59522?resourceName=creator-logo-cosmos-nyc&resourceType=CreatorLogo"
+	},
+	"issuanceDate": "1970-01-01",
+	"credentialSubject": {
+		"id": "<placeholder-did-key-holder-did>",
+		"credentialInternalId": "<placeholder-credential-internal-id>",
+		"category": "event",
+		"event": {
+			"type": "Cosmos NYC Mainnet Meetup 2023",
+			"name": "Cosmos NYC Mainnet Meetup 2023",
+			"description": "This Cred proves that the holder attended the Cosmos NYC Mainnet Meetup 2023.",
+			"image": "https://resolver.cheqd.net/1.0/identifiers/did:cheqd:mainnet:56245db1-6a6f-481f-8e18-b0dd0fc59522?resourceName=event-cosmos-nyc-mainnet&resourceType=CreatorArtwork",
+			"startDate": "2023-09-19",
+			"endDate": "2023-09-19",
+			"eventAttendanceMode": "OfflineEventAttendanceMode",
+			"organizer": "Cosmos NYC",
+			"location": {
+				"type": "PostalAddress",
+				"name": "Shades of Green",
+				"streetAddress": "125 East 15th Street",
+				"addressLocality": "New York",
+				"addressRegion": "NY",
+				"postalCode": "10003",
+				"addressCountry": "US"
+			}
+		},
+		"linkedImage": "https://resolver.cheqd.net/1.0/identifiers/did:cheqd:mainnet:56245db1-6a6f-481f-8e18-b0dd0fc59522?resourceName=event-cosmos-nyc-mainnet&resourceType=CreatorArtwork"
+	}
+}

@@ -1,0 +1,32 @@
+{
+	"@context": ["https://www.w3.org/2018/credentials/v1"],
+	"type": ["VerifiableCredential", "Role"],
+	"issuer": {
+		"id": "<placeholder-issuer-did>",
+		"name": "<placeholder-issuer-name>",
+		"profileHandle": "<placeholder-issuer-profile-handle>",
+		"url": "<placeholder-issuer-website>",
+		"image": "<placeholder-issuer-logo>"
+	},
+	"issuanceDate": "1970-01-01",
+	"expirationDate": "1970-01-01",
+	"credentialSubject": {
+		"id": "<placeholder-did-key-holder-did>",
+		"credentialInternalId": "<placeholder-credential-internal-id>",
+		"category": "role",
+		"role": {
+			"type": "Example Role Cred",
+			"name": "Example Role Cred",
+			"description": "This Cred is an example of a role credential that verifies the user has a certain role in the Creators' project",
+			"image": "https://img.creds.xyz/starter/role/role-generic-artwork.png",
+			"expertise": "<Product | Cosmos SDK | Tokenomics | Community | Marketing | Finance | Engineering | Other>",
+			"category": "<Quiz | Competition | Course | Task Completed | Notable Post | FUD Fighter | Supporter | Other>",
+			"level": "<1 | 2 | 3 | 4 | 5 | 6 | 7 | 8 | 9 | 10>",
+			"rarity": "<Common | Uncommon | Rare | Epic | Legendary | Other>",
+			"platform": "<Zealy | Galxe | X/Twitter | Discord | Telegram | Instagram | TikTok | Youtube | GitHub | On-chain | Conference |  Other>",
+			"campaign": "<Example campaign name>",
+			"topic": "<Identity | Gaming | Reputation | Web3 | DeFi | CEX/DEX | Dapps | Ecosystem | Product | Other>"
+		},
+		"linkedImage": "https://img.creds.xyz/starter/role/role-generic-artwork.png"
+	}
+}

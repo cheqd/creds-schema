@@ -1,0 +1,47 @@
+{
+	"@context": ["https://www.w3.org/2018/credentials/v1"],
+	"type": ["VerifiableCredential", "Event"],
+	"issuer": {
+		"id": "<placeholder-issuer-did>",
+		"name": "<placeholder-issuer-name>",
+		"profileHandle": "<placeholder-issuer-profile-handle>",
+		"url": "<placeholder-issuer-website>",
+		"image": "<placeholder-issuer-logo>"
+	},
+	"issuanceDate": "1970-01-01",
+	"expirationDate": "1970-01-01",
+	"credentialSubject": {
+		"id": "<placeholder-did-key-holder-did>",
+		"credentialInternalId": "<placeholder-credential-internal-id>",
+		"category": "event",
+		"event": {
+			"type": "Messari Mainnet 2023",
+			"name": "Messari Mainnet 2023",
+			"description": "This Cred proves the holder met the cheqd Team in-person at Messari Mainnet 2023",
+			"image": "https://resolver.cheqd.net/1.0/identifiers/did:cheqd:mainnet:ed58e9b1-27ea-4c78-98b5-2ed9047d2e70?resourceName=event-messari-mainnet-2023",
+			"startDate": "2023-09-18",
+			"endDate": "2023-09-22",
+			"eventAttendanceMode": "OfflineEventAttendanceMode",
+			"guest": "Fraser Edwards & Ross Power",
+			"rarity": "Common",
+			"topic": "Identity & Reputation",
+			"speaker": "Fraser Edwards",
+			"host": "Ryan Selkis",
+			"sponsor": "cheqd",
+			"sponsorTier": "Bronze",
+			"platform": "Conference",
+			"attendeeCount": "1500",
+			"organizer": "Messari Mainnet",
+			"location": {
+				"type": "PostalAddress",
+				"name": "Pier 36 NYC",
+				"streetAddress": "299 South Street",
+				"addressLocality": "New York",
+				"addressRegion": "NY",
+				"postalCode": "10002",
+				"addressCountry": "US"
+			}
+		},
+		"linkedImage": "https://resolver.cheqd.net/1.0/identifiers/did:cheqd:mainnet:ed58e9b1-27ea-4c78-98b5-2ed9047d2e70?resourceName=event-messari-mainnet-2023"
+	}
+}

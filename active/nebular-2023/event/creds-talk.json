@@ -1,0 +1,38 @@
+{
+	"@context": ["https://www.w3.org/2018/credentials/v1"],
+	"type": ["VerifiableCredential", "Event"],
+	"issuer": {
+		"id": "did:cheqd:mainnet:e69b7d40-50a2-4849-8158-afb3e057375a",
+		"name": "Nebular Summit",
+		"url": "https://nebular.builders/",
+		"image": "https://resolver.cheqd.net/1.0/identifiers/did:cheqd:mainnet:e69b7d40-50a2-4849-8158-afb3e057375a?resourceType=IssuerLogo&resourceName=nebular-issuer-logo"
+	},
+	"issuanceDate": "1970-01-01",
+	"credentialSubject": {
+		"id": "<placeholder-did-key-holder-did>",
+		"credentialInternalId": "<placeholder-credential-internal-id>",
+		"category": "event",
+		"event": {
+			"type": "Nebular Summit 2023: Preventing Scamming in Discord & Telegram across Cosmos",
+			"name": "Nebular Summit 2023: Preventing Scamming in Discord & Telegram across Cosmos",
+			"description": "This credential verifies the holder attended the 'Preventing Scamming in Discord & Telegram across Cosmos' talk during Nebular Summit 2023 #NebularSummit2023",
+			"image": "https://resolver.cheqd.net/1.0/identifiers/did:cheqd:mainnet:7c950b5d-dbbb-4a12-9d79-6b553ca0c271?resourceType=CredentialArtwork&resourceName=event-creds-talk",
+			"startDate": "2023-07-24",
+			"endDate": "2023-07-24",
+			"eventAttendanceMode": "OfflineEventAttendanceMode",
+			"sponsor": "cheqd",
+			"performer": "Fraser Edwards",
+			"organizer": "Nebular Summit",
+			"location": {
+				"type": "PostalAddress",
+				"name": "Albert School",
+				"streetAddress": "18 Rue de Paradis",
+				"addressLocality": "Paris",
+				"addressRegion": "Ile-de-France",
+				"postalCode": "75010",
+				"addressCountry": "France"
+			}
+		},
+		"linkedImage": "https://resolver.cheqd.net/1.0/identifiers/did:cheqd:mainnet:7c950b5d-dbbb-4a12-9d79-6b553ca0c271?resourceType=CredentialArtwork&resourceName=event-creds-talk"
+	}
+}

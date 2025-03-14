@@ -1,0 +1,31 @@
+{
+	"@context": ["https://www.w3.org/2018/credentials/v1"],
+	"type": ["VerifiableCredential", "Role"],
+	"issuer": {
+		"id": "<placeholder-issuer-did>",
+		"name": "<placeholder-issuer-name>",
+		"profileHandle": "<placeholder-issuer-profile-handle>",
+		"url": "<placeholder-issuer-website>",
+		"image": "<placeholder-issuer-logo>"
+	},
+	"issuanceDate": "1970-01-01",
+	"expirationDate": "1970-01-01",
+	"credentialSubject": {
+		"id": "<placeholder-did-key-holder-did>",
+		"credentialInternalId": "<placeholder-credential-internal-id>",
+		"category": "role",
+		"role": {
+			"type": "Team Member",
+			"name": "Team Member",
+			"description": "This credential verifies the user is a core member of the Creators' team",
+			"image": "https://img.creds.xyz/starter/role/Role-Team_Member.png",
+			"expertise": "Community",
+			"level": "8",
+			"rarity": "Epic",
+			"platform": "Telegram",
+			"campaign": "Network Product Development",
+			"topic": "Web3"
+		},
+		"linkedImage": "https://img.creds.xyz/starter/role/Role-Team_Member.png"
+	}
+}

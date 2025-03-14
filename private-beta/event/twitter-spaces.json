@@ -1,0 +1,27 @@
+{
+	"@context": ["https://www.w3.org/2018/credentials/v1"],
+	"type": ["VerifiableCredential", "Event"],
+	"issuer": {
+		"id": "did:cheqd:mainnet:ed58e9b1-27ea-4c78-98b5-2ed9047d2e70",
+		"name": "cheqd",
+		"url": "https://cheqd.io/",
+		"image": "https://resolver.cheqd.net/1.0/identifiers/did:cheqd:mainnet:b8e398b3-8f67-44a0-97ac-0c0cc9a00917?resourceName=cheqd%20Logo&resourceType=image"
+	},
+	"issuanceDate": "1970-01-01",
+	"credentialSubject": {
+		"id": "<placeholder-did-key-holder-did>",
+		"credentialInternalId": "<placeholder-credential-internal-id>",
+		"category": "event",
+		"event": {
+			"type": "March 2023 Twitter Spaces",
+			"name": "March 2023 Twitter Spaces",
+			"description": "This credential verifies the user attended cheqd's March 2023 Twitter Space",
+			"image": "https://img.creds.xyz/Event-March_Twitter_Spaces.png",
+			"startDate": "2023-03-31",
+			"endDate": "2023-03-21",
+			"eventAttendanceMode": "OnlineEventAttendanceMode",
+			"organizer": "cheqd"
+		},
+		"linkedImage": "https://img.creds.xyz/Event-March_Twitter_Spaces.png"
+	}
+}

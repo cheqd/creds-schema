@@ -1,0 +1,23 @@
+{
+	"@context": ["https://www.w3.org/2018/credentials/v1"],
+	"type": ["VerifiableCredential", "CommunityRole"],
+	"issuer": {
+		"id": "did:cheqd:mainnet:ed58e9b1-27ea-4c78-98b5-2ed9047d2e70",
+		"name": "cheqd",
+		"url": "https://cheqd.io/",
+		"image": "https://resolver.cheqd.net/1.0/identifiers/did:cheqd:mainnet:b8e398b3-8f67-44a0-97ac-0c0cc9a00917?resourceName=cheqd%20Logo&resourceType=image"
+	},
+	"issuanceDate": "1970-01-01",
+	"credentialSubject": {
+		"id": "<placeholder-did-key-holder-did>",
+		"credentialInternalId": "<placeholder-credential-internal-id>",
+		"category": "communityRole",
+		"communityRole": {
+			"type": "Community Member",
+			"name": "Community Member",
+			"description": "We like our cheqd frens! Thanks for being a community fren, have a cheqd Community Cred.",
+			"image": "https://resolver.cheqd.net/1.0/identifiers/did:cheqd:mainnet:ed58e9b1-27ea-4c78-98b5-2ed9047d2e70?resourceType=image&resourceName=role-community-member"
+		},
+		"linkedImage": "https://resolver.cheqd.net/1.0/identifiers/did:cheqd:mainnet:ed58e9b1-27ea-4c78-98b5-2ed9047d2e70?resourceType=image&resourceName=role-community-member"
+	}
+}

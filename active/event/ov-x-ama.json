@@ -1,0 +1,28 @@
+{
+	"@context": ["https://www.w3.org/2018/credentials/v1"],
+	"type": ["VerifiableCredential", "Event"],
+	"issuer": {
+		"id": "did:cheqd:mainnet:35e6d6a3-3034-4ac7-8474-47134238f23a",
+		"name": "Outlier Ventures",
+		"url": "https://outlierventures.io/",
+		"image": "https://resolver.cheqd.net/1.0/identifiers/did:cheqd:mainnet:35e6d6a3-3034-4ac7-8474-47134238f23a?resourceType=IssuerLogo&resourceName=outlier-ventures-issuer-logo"
+	},
+	"issuanceDate": "1970-01-01",
+	"credentialSubject": {
+		"id": "<placeholder-did-key-holder-did>",
+		"credentialInternalId": "<placeholder-credential-internal-id>",
+		"category": "event",
+		"event": {
+			"type": "cheqd AMA with Outlier Ventures",
+			"name": "cheqd AMA with Outlier Ventures",
+			"description": "Congratulations! You're an Official Outlier. As one of the first ever CREDited members, you're ushering in decentralised identity for a decentralised web",
+			"image": "https://img.creds.xyz/event-ov-ama.webp",
+			"startDate": "2023-08-04",
+			"endDate": "2023-08-04",
+			"eventAttendanceMode": "OnlineEventAttendanceMode",
+			"organizer": "Outlier Ventures",
+			"guest": "Jamie Burke"
+		},
+		"linkedImage": "https://img.creds.xyz/event-ov-ama.webp"
+	}
+}

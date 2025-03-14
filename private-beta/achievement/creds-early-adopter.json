@@ -1,0 +1,23 @@
+{
+	"@context": ["https://www.w3.org/2018/credentials/v1"],
+	"type": ["VerifiableCredential", "Achievement"],
+	"issuer": {
+		"id": "did:cheqd:mainnet:7c950b5d-dbbb-4a12-9d79-6b553ca0c271",
+		"name": "creds",
+		"url": "https://creds.xyz/",
+		"image": "https://resolver.cheqd.net/1.0/identifiers/did:cheqd:mainnet:7c950b5d-dbbb-4a12-9d79-6b553ca0c271?resourceName=creds-issuer-logo&resourceType=image"
+	},
+	"issuanceDate": "1970-01-01",
+	"credentialSubject": {
+		"id": "<placeholder-did-key-holder-did>",
+		"credentialInternalId": "<placeholder-credential-internal-id>",
+		"category": "achievement",
+		"achievement": {
+			"type": "Creds Early Adopter",
+			"name": "Creds Early Adopter",
+			"description": "This credential verifies the user was amongst the first 500 users of Creds",
+			"image": "https://img.creds.xyz/Achievement%20-%20Creds_Early_Adopter.png"
+		},
+		"linkedImage": "https://img.creds.xyz/Achievement%20-%20Creds_Early_Adopter.png"
+	}
+}

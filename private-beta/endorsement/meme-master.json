@@ -1,0 +1,23 @@
+{
+	"@context": ["https://www.w3.org/2018/credentials/v1"],
+	"type": ["VerifiableCredential", "Endorsement"],
+	"issuer": {
+		"id": "did:cheqd:mainnet:7c950b5d-dbbb-4a12-9d79-6b553ca0c271",
+		"name": "creds",
+		"url": "https://creds.xyz/",
+		"image": "https://resolver.cheqd.net/1.0/identifiers/did:cheqd:mainnet:7c950b5d-dbbb-4a12-9d79-6b553ca0c271?resourceName=creds-issuer-logo&resourceType=image"
+	},
+	"issuanceDate": "1970-01-01",
+	"credentialSubject": {
+		"id": "<placeholder-did-key-holder-did>",
+		"credentialInternalId": "<placeholder-credential-internal-id>",
+		"category": "endorsement",
+		"endorsement": {
+			"type": "Meme Master",
+			"name": "Meme Master",
+			"description": "This credential verifies the user is an approved Meme Creator",
+			"image": "https://img.creds.xyz/Endorsement-Meme_Master.png"
+		},
+		"linkedImage": "https://img.creds.xyz/Endorsement-Meme_Master.png"
+	}
+}

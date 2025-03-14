@@ -1,0 +1,32 @@
+{
+	"@context": ["https://www.w3.org/2018/credentials/v1"],
+	"type": ["VerifiableCredential", "Endorsement"],
+	"issuer": {
+		"id": "<placeholder-issuer-did>",
+		"name": "<placeholder-issuer-name>",
+		"profileHandle": "<placeholder-issuer-profile-handle>",
+		"url": "<placeholder-issuer-website>",
+		"image": "<placeholder-issuer-logo>"
+	},
+	"issuanceDate": "1970-01-01",
+	"expirationDate": "1970-01-01",
+	"credentialSubject": {
+		"id": "<placeholder-did-key-holder-did>",
+		"credentialInternalId": "<placeholder-credential-internal-id>",
+		"category": "endorsement",
+		"endorsement": {
+			"type": "Ledger Software Contributor",
+			"name": "Ledger Software Contributor",
+			"description": "This credential verifies the user is an approved Ledger Software Contributor of the Creators' project",
+			"image": "https://img.creds.xyz/starter/endorsement/Endorsement-Node_contributor.png",
+			"expertise": "Cosmos SDK",
+			"category": "Supporter",
+			"level": "8",
+			"rarity": "Epic",
+			"platform": "GitHub",
+			"campaign": "Cosmos SDK Major On-chain Upgrade",
+			"topic": "Product"
+		},
+		"linkedImage": "https://img.creds.xyz/starter/endorsement/Endorsement-Node_contributor.png"
+	}
+}

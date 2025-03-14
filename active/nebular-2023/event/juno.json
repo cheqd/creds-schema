@@ -1,0 +1,38 @@
+{
+	"@context": ["https://www.w3.org/2018/credentials/v1"],
+	"type": ["VerifiableCredential", "Event"],
+	"issuer": {
+		"id": "did:cheqd:mainnet:e69b7d40-50a2-4849-8158-afb3e057375a",
+		"name": "Nebular Summit",
+		"url": "https://nebular.builders/",
+		"image": "https://resolver.cheqd.net/1.0/identifiers/did:cheqd:mainnet:e69b7d40-50a2-4849-8158-afb3e057375a?resourceType=IssuerLogo&resourceName=nebular-issuer-logo"
+	},
+	"issuanceDate": "1970-01-01",
+	"credentialSubject": {
+		"id": "<placeholder-did-key-holder-did>",
+		"credentialInternalId": "<placeholder-credential-internal-id>",
+		"category": "event",
+		"event": {
+			"type": "Nebular Summit 2023: Swift Protocol - Notify your users with 5 lines of code",
+			"name": "Nebular Summit 2023: Swift Protocol - Notify your users with 5 lines of code",
+			"description": "This credential verifies the holder attended the 'Swift Protocol - Notify your users with 5 lines of code' workshop during Nebular Hack Day 2023 #NebularSummit2023",
+			"image": "https://resolver.cheqd.net/1.0/identifiers/did:cheqd:mainnet:e69b7d40-50a2-4849-8158-afb3e057375a?resourceType=CredentialArtwork&resourceName=event-juno-workshop",
+			"startDate": "2023-07-23",
+			"endDate": "2023-07-23",
+			"eventAttendanceMode": "OfflineEventAttendanceMode",
+			"sponsor": "Juno",
+			"performer": "Josef Levonton",
+			"organizer": "Nebular Summit",
+			"location": {
+				"type": "PostalAddress",
+				"name": "Albert School",
+				"streetAddress": "18 Rue de Paradis",
+				"addressLocality": "Paris",
+				"addressRegion": "Ile-de-France",
+				"postalCode": "75010",
+				"addressCountry": "France"
+			}
+		},
+		"linkedImage": "https://resolver.cheqd.net/1.0/identifiers/did:cheqd:mainnet:e69b7d40-50a2-4849-8158-afb3e057375a?resourceType=CredentialArtwork&resourceName=event-juno-workshop"
+	}
+}

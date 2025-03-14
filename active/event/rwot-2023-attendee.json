@@ -1,0 +1,36 @@
+{
+	"@context": ["https://www.w3.org/2018/credentials/v1"],
+	"type": ["VerifiableCredential", "Event"],
+	"issuer": {
+		"id": "did:cheqd:mainnet:7c950b5d-dbbb-4a12-9d79-6b553ca0c271",
+		"name": "creds",
+		"url": "https://creds.xyz/",
+		"image": "https://resolver.cheqd.net/1.0/identifiers/did:cheqd:mainnet:7c950b5d-dbbb-4a12-9d79-6b553ca0c271?resourceName=creds-issuer-logo&resourceType=image"
+	},
+	"issuanceDate": "1970-01-01",
+	"credentialSubject": {
+		"id": "<placeholder-did-key-holder-did>",
+		"credentialInternalId": "<placeholder-credential-internal-id>",
+		"category": "event",
+		"event": {
+			"type": "Rebooting Web of Trust 2023 Attendee",
+			"name": "Rebooting Web of Trust 2023 Attendee",
+			"description": "This Cred proves the holder attended Rebooting Web of Trust (RWOT) 2023 in Cologne",
+			"image": "https://resolver.cheqd.net/1.0/identifiers/did:cheqd:mainnet:ed58e9b1-27ea-4c78-98b5-2ed9047d2e70?resourceName=event-rwot-attendee",
+			"startDate": "2023-09-18",
+			"endDate": "2023-09-22",
+			"eventAttendanceMode": "OfflineEventAttendanceMode",
+			"organizer": "Rebooting Web of Trust",
+			"location": {
+				"type": "PostalAddress",
+				"name": "Blockchain Reallabor",
+				"streetAddress": "Studio 6, Euronova Campus, An der Hasenkaule 10",
+				"addressLocality": "Hürth",
+				"addressRegion": "Cologne",
+				"postalCode": "50354",
+				"addressCountry": "DE"
+			}
+		},
+		"linkedImage": "https://resolver.cheqd.net/1.0/identifiers/did:cheqd:mainnet:ed58e9b1-27ea-4c78-98b5-2ed9047d2e70?resourceName=event-rwot-attendee"
+	}
+}

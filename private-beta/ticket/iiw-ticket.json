@@ -1,0 +1,38 @@
+{
+	"@context": ["https://www.w3.org/2018/credentials/v1"],
+	"type": ["VerifiableCredential", "Ticket"],
+	"issuer": {
+		"id": "did:cheqd:mainnet:ed58e9b1-27ea-4c78-98b5-2ed9047d2e70",
+		"name": "cheqd",
+		"url": "https://cheqd.io/",
+		"image": "https://resolver.cheqd.net/1.0/identifiers/did:cheqd:mainnet:b8e398b3-8f67-44a0-97ac-0c0cc9a00917?resourceName=cheqd%20Logo&resourceType=image"
+	},
+	"issuanceDate": "1970-01-01",
+	"credentialSubject": {
+		"id": "<placeholder-did-key-holder-did>",
+		"credentialInternalId": "<placeholder-credential-internal-id>",
+		"category": "ticket",
+		"ticket": {
+			"type": "IIW April 2023",
+			"name": "IIW April 2023",
+			"description": "This credential verifies the user holds a ticket for the listed event",
+			"image": "https://img.creds.xyz/Ticket-IIW_2023.png",
+			"reservationFor": {
+				"@type": "Conference",
+				"name": "Internet Identity Workshop 2023",
+				"startDate": "2023-04-26",
+				"eventAttendanceMode": "OfflineEventAttendanceMode",
+				"location": {
+					"type": "PostalAddress",
+					"name": "Computer History Museum",
+					"streetAddress": "1401 N Shoreline Blvd",
+					"addressLocality": "Mountain View",
+					"addressRegion": "California",
+					"postalCode": "94043",
+					"addressCountry": "United States"
+				}
+			}
+		}
+	},
+	"linkedImage": "https://img.creds.xyz/Ticket-IIW_2023.png"
+}

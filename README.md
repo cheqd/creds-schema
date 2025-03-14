@@ -1,14 +1,12 @@
 # Default .github community repo for cheqd
 
-[![GitHub release (latest by date)](https://img.shields.io/github/v/release/cheqd/.github?color=green&label=stable%20release&style=flat-square)](https://github.com/cheqd/.github/releases/latest) ![GitHub Release Date](https://img.shields.io/github/release-date/cheqd/.github?color=green&style=flat-square) [![GitHub license](https://img.shields.io/github/license/cheqd/.github?color=blue&style=flat-square)](https://github.com/cheqd/.github/blob/main/LICENSE)
+[![GitHub license](https://img.shields.io/github/license/cheqd/creds-schema?color=blue&style=flat-square)](https://github.com/cheqd/creds-schema/blob/main/LICENSE) [![GitHub contributors](https://img.shields.io/github/contributors/cheqd/creds-schema?label=contributors%20%E2%9D%A4%EF%B8%8F&style=flat-square)](https://github.com/cheqd/creds-schema/graphs/contributors)
 
-[![GitHub release (latest by date including pre-releases)](https://img.shields.io/github/v/release/cheqd/.github?include_prereleases&label=dev%20release&style=flat-square)](https://github.com/cheqd/.github/releases/) ![GitHub commits since latest release (by date)](https://img.shields.io/github/commits-since/cheqd/.github/latest?style=flat-square) [![GitHub contributors](https://img.shields.io/github/contributors/cheqd/.github?label=contributors%20%E2%9D%A4%EF%B8%8F&style=flat-square)](https://github.com/cheqd/.github/graphs/contributors)
-
-[![GitHub Workflow Status](https://img.shields.io/github/actions/workflow/status/cheqd/.github/dispatch.yml?label=workflows&style=flat-square)](https://github.com/cheqd/.github/actions/workflows/dispatch.yml) [![GitHub Workflow Status](https://img.shields.io/github/actions/workflow/status/cheqd/.github/codeql.yml?label=CodeQL&style=flat-square)](https://github.com/cheqd/.github/actions/workflows/codeql.yml) ![GitHub repo size](https://img.shields.io/github/repo-size/cheqd/.github?style=flat-square)
+[![GitHub Workflow Status](https://img.shields.io/github/actions/workflow/status/cheqd/creds-schema/dispatch.yml?label=workflows&style=flat-square)](https://github.com/cheqd/creds-schema/actions/workflows/dispatch.yml) ![GitHub repo size](https://img.shields.io/github/repo-size/cheqd/creds-schema?style=flat-square)
 
 ## ℹ️ Overview
 
-Default template for cheqd repos
+Schemas and templates for [Creds.xyz](https://creds.xyz)
 
 ## 💬 Community
 

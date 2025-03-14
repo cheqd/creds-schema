@@ -1,0 +1,36 @@
+{
+	"@context": ["https://www.w3.org/2018/credentials/v1"],
+	"type": ["VerifiableCredential", "Event"],
+	"issuer": {
+		"id": "did:cheqd:mainnet:ed58e9b1-27ea-4c78-98b5-2ed9047d2e70",
+		"name": "cheqd",
+		"url": "https://cheqd.io/",
+		"image": "https://resolver.cheqd.net/1.0/identifiers/did:cheqd:mainnet:b8e398b3-8f67-44a0-97ac-0c0cc9a00917?resourceName=cheqd%20Logo&resourceType=image"
+	},
+	"issuanceDate": "1970-01-01",
+	"credentialSubject": {
+		"id": "<placeholder-did-key-holder-did>",
+		"credentialInternalId": "<placeholder-credential-internal-id>",
+		"category": "event",
+		"event": {
+			"type": "RWOT 2023 Demo Night",
+			"name": "RWOT 2023 Demo Night",
+			"description": "This Cred proves the holder attended Rebooting Web Of Trust (RWOT) 2023 Demo Night",
+			"image": "https://resolver.cheqd.net/1.0/identifiers/did:cheqd:mainnet:ed58e9b1-27ea-4c78-98b5-2ed9047d2e70?resourceName=event-rwot-demo-night",
+			"startDate": "2023-09-21",
+			"endDate": "2023-09-21",
+			"eventAttendanceMode": "OfflineEventAttendanceMode",
+			"organizer": "Rebooting Web of Trust",
+			"location": {
+				"type": "PostalAddress",
+				"name": "Blockchain Reallabor",
+				"streetAddress": "Studio 6, Euronova Campus, An der Hasenkaule 10",
+				"addressLocality": "Hürth",
+				"addressRegion": "Cologne",
+				"postalCode": "50354",
+				"addressCountry": "DE"
+			}
+		},
+		"linkedImage": "https://resolver.cheqd.net/1.0/identifiers/did:cheqd:mainnet:ed58e9b1-27ea-4c78-98b5-2ed9047d2e70?resourceName=event-rwot-demo-night"
+	}
+}

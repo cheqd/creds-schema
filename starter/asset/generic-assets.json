@@ -1,0 +1,35 @@
+{
+	"@context": ["https://www.w3.org/2018/credentials/v1"],
+	"type": ["VerifiableCredential", "Asset"],
+	"issuer": {
+		"id": "<placeholder-issuer-did>",
+		"name": "<placeholder-issuer-name>",
+		"profileHandle": "<placeholder-issuer-profile-handle>",
+		"url": "<placeholder-issuer-website>",
+		"image": "<placeholder-issuer-logo>"
+	},
+	"issuanceDate": "1970-01-01",
+	"expirationDate": "1970-01-01",
+	"credentialSubject": {
+		"id": "<placeholder-did-key-holder-did>",
+		"credentialInternalId": "<placeholder-credential-internal-id>",
+		"category": "asset",
+		"asset": {
+			"type": "Example Asset Cred",
+			"name": "Example Asset Cred",
+			"description": "This Cred can be issued to prove ownership of an asset during a given period",
+			"image": "https://img.creds.xyz/starter/asset/asset-token-whale.png",
+			"acquisitionDate": "<placeholder-asset-acquisition-date>",
+			"transferDate": "<placeholder-asset-transfer-date>",
+			"previousOwner": "<placeholder-asset-previous-owner>",
+			"age": "<placeholder-asset-age>",
+			"class": "<placeholder-asset-class>",
+			"rarity": "<Common | Uncommon | Rare | Epic | Legendary | Other>",
+			"level": "<1 | 2 | 3 | 4 | 5 | 6 | 7 | 8 | 9 | 10>",
+			"campaign": "<Example campaign name>",
+			"platform": "<placeholder-asset-platform>",
+			"sku": "<placeholder-asset-stock-keeping-unit>"
+		},
+		"linkedImage": "https://img.creds.xyz/starter/asset/asset-token-whale.png"
+	}
+}

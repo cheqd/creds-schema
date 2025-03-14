@@ -1,0 +1,25 @@
+{
+	"@context": ["https://www.w3.org/2018/credentials/v1"],
+	"type": ["VerifiableCredential", "CommunityRole"],
+	"issuer": {
+		"id": "did:cheqd:mainnet:e69b7d40-50a2-4849-8158-afb3e057375a",
+		"name": "Nebular Summit",
+		"url": "https://nebular.builders/",
+		"image": "https://resolver.cheqd.net/1.0/identifiers/did:cheqd:mainnet:e69b7d40-50a2-4849-8158-afb3e057375a?resourceType=IssuerLogo&resourceName=nebular-issuer-logo"
+	},
+	"issuanceDate": "1970-01-01",
+	"credentialSubject": {
+		"id": "<placeholder-did-key-holder-did>",
+		"credentialInternalId": "<placeholder-credential-internal-id>",
+		"category": "communityRole",
+		"communityRole": {
+			"type": "Nebular Summit 2023 Speaker",
+			"name": "Nebular Summit 2023 Speaker",
+			"description": "This credential verifies the holder was a speaker during Nebular Summit 2023 #NebularSummit2023",
+			"image": "https://resolver.cheqd.net/1.0/identifiers/did:cheqd:mainnet:e69b7d40-50a2-4849-8158-afb3e057375a?resourceType=CredentialArtwork&resourceName=role-nebular-speaker",
+			"startDate": "2023-07-23",
+			"endDate": "2023-07-25"
+		},
+		"linkedImage": "https://resolver.cheqd.net/1.0/identifiers/did:cheqd:mainnet:e69b7d40-50a2-4849-8158-afb3e057375a?resourceType=CredentialArtwork&resourceName=role-nebular-speaker"
+	}
+}

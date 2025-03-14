@@ -1,0 +1,36 @@
+{
+	"@context": ["https://www.w3.org/2018/credentials/v1"],
+	"type": ["VerifiableCredential", "Event"],
+	"issuer": {
+		"id": "did:cheqd:mainnet:c4379358-0902-439d-8728-3c9c10b94864",
+		"name": "Regen",
+		"url": "https://www.regen.network/",
+		"image": "https://resolver.cheqd.net/1.0/identifiers/did:cheqd:mainnet:c4379358-0902-439d-8728-3c9c10b94864?resourceName=creator-logo-regen&resourceType=CreatorLogo"
+	},
+	"issuanceDate": "1970-01-01",
+	"credentialSubject": {
+		"id": "<placeholder-did-key-holder-did>",
+		"credentialInternalId": "<placeholder-credential-internal-id>",
+		"category": "event",
+		"event": {
+			"type": "Race Brook Regen Summit 2023 Attendee",
+			"name": "Race Brook Regen Summit 2023 Attendee",
+			"description": "This cred proves the holder attended Race Brook Regen Summit 2023, a three day Regen Network ecosystem gathering in the beautiful Berkshire Mountains of Western MA to network, activate and play, as the leaves transition in chromatic splendor.",
+			"image": "https://img.creds.xyz/event-regen-summit.png",
+			"startDate": "2023-09-24",
+			"endDate": "2023-09-28",
+			"eventAttendanceMode": "OfflineEventAttendanceMode",
+			"organizer": "Regen Network & Regen Foundation",
+			"location": {
+				"type": "PostalAddress",
+				"name": "Race Brook Lodge",
+				"streetAddress": "864 S Undermountain Rd",
+				"addressLocality": "Sheffield",
+				"addressRegion": "MA",
+				"postalCode": "01257",
+				"addressCountry": "US"
+			}
+		},
+		"linkedImage": "https://img.creds.xyz/event-regen-summit.png"
+	}
+}
